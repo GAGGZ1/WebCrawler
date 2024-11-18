@@ -7,6 +7,8 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.HashSet;
+import java.util.*;
+
 public class Crawler{
     HashSet<String>urlSet;
     int MAX_DEPTH=2;
