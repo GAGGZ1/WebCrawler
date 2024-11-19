@@ -9,7 +9,7 @@ public class DatabaseConnection {
         if(connection!=null){
             return connection;
         }
-        String user="root";
+        String user="root";//my sql credentials
         String pwd="chauhans";
         String db="searchengineapp";
         return getConnection(user,pwd,db);
